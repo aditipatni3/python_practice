@@ -6,4 +6,4 @@ try:
 except Exception as e:
     print("error as ", e)
     
-print("👍")
+print("💕")
