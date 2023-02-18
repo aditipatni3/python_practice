@@ -45,3 +45,8 @@ food="hat, rat, mat, fat"
 regex= re.compile("[r]at")
 food=regex.sub("food", food)
 print(food)
+
+
+#MATCHING A SINGLE CHARACTER
+str="123456"
+print("match:", len(re.findall("\d{5}", str)))
