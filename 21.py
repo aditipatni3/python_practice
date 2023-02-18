@@ -50,3 +50,9 @@ print(food)
 #MATCHING A SINGLE CHARACTER
 str="123456"
 print("match:", len(re.findall("\d{5}", str)))
+#\d will match number \D will match anything but a number
+
+
+str="123 1234 12345 123456 1234567"
+print("matches:", len(re.findall("\d{5,7}", str)))
+#matches:3 because: 12345, 123456, 1234567(basically inclusive brackets)
