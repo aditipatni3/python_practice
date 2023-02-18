@@ -18,6 +18,6 @@ high
 in the sky'''
 print(str)
 
-regex=re.compile("\n")   #\b:backspace  \f:formfeed    \r:carriage return   \t:tab   \v:vertical tab
+regex=re.compile("\n")   #\b:backspace  \f:formfeed \r:carriage return   \t:tab   \v:vertical tab
 str=regex.sub(" ", str)
 print(str)
