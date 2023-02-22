@@ -16,4 +16,7 @@ print(x)
 
 
 
-#Raising value error
+#Raising value-custom error
+a=int(input("enter the value between 1 and 9:"))
+if (a<1 or a>9):
+    raise ValueError("value incorrect")
